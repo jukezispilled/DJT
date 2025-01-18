@@ -122,7 +122,7 @@ const TradingSimulator = ({ title, imageSrc, initialPrice }) => {
                     <Button 
                         onClick={handleBuy} 
                     >
-                        <span className=''>Simulate Trump Win</span>
+                        <span className=''>Simulate Trump Effect</span>
                     </Button>
                     </div>
                 </div>

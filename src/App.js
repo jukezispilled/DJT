@@ -11,13 +11,13 @@ const reviews = [
   {
     name: "Ansem",
     username: "@blknoiz06",
-    body: "DJT500 is millions coded. will start shilling on X shortly",
+    body: "DON500 is millions coded. will start shilling on X shortly",
     img: "ansem.png",
   },
   {
     name: "Bill Ackman",
     username: "@BillAckman",
-    body: "fund is doubling down on DJT500. data points up and to the north",
+    body: "fund is doubling down on DON500. data points up and to the north",
     img: "bill.png",
   },
   {
@@ -35,13 +35,13 @@ const reviews = [
   {
     name: "Wolf Of Crypto",
     username: "@W0LF0FCRYPT0",
-    body: "here to shill the f*ck out of this. only up. DJT500 is the next 100x",
+    body: "here to shill the f*ck out of this. only up. DON500 is the next 100x",
     img: "wolf.png",
   },
   {
     name: "Elon Musk",
     username: "@elonmusk",
-    body: "DJT500 might reach mars before me. if trump in, i'm in",
+    body: "DON500 might reach mars before me. if trump in, i'm in",
     img: "elon.png",
   },
 ];
@@ -100,7 +100,7 @@ function App() {
               >
                 {copied ? 'Copied!' : 'Copy'}
               </button>
-              <span className='p-1 text-[9px] md:text-base'>BtTQtFdArXgYgwiHcLZtXfX2zTfB87qs4y2SQMckpump</span>
+              <span className='p-1 text-[9px] md:text-base'>uploading...</span>
             </Window>
           </div>
           <Window>
@@ -109,17 +109,14 @@ function App() {
                 <div className='h-auto w-[85dvw] py-10 relative'>
                   <div className='absolute top-2 right-2 md:top-5 md:right-5'>
                     <div className='flex justify-center space-x-2 text-lg'>
-                      <a href='https://x.com/DJT500solana' className='underline'>
+                      <a href='https://x.com/' className='underline'>
                         Twitter
-                      </a>
-                      <a href='https://t.me/DJT500Portal' className='underline'>
-                        Telegram
                       </a>
                     </div>
                   </div>
-                  <div className='flex justify-center'>
-                    <div className='mb-5'>
-                      <img src="header.gif" className='scale-90 md:scale-100'></img>
+                  <div className='w-full flex justify-center'>
+                    <div className='mb-5 flex justify-center'>
+                      <img src="don.gif" className='w-[70%]'></img>
                     </div>
                   </div>
                   <RepeatedMarquee />
@@ -127,7 +124,7 @@ function App() {
                   <div className='flex justify-center my-[10px]'>
                     <Window>
                       <video
-                        src="/trump.mp4"
+                        src="/pump.mov"
                         autoPlay
                         loop
                         muted
