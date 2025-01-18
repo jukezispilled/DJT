@@ -71,7 +71,7 @@ function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const contractAddress = 'uploading...';
+    const contractAddress = 'HpeDabDWUCxvoLQSNSVmMSfUVEsQeeP85Qs5evvepump';
     navigator.clipboard.writeText(contractAddress).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000); // Reset the copied state after 2 seconds
@@ -100,7 +100,7 @@ function App() {
               >
                 {copied ? 'Copied!' : 'Copy'}
               </button>
-              <span className='p-1 text-[9px] md:text-base'>uploading...</span>
+              <span className='p-1 text-[9px] md:text-base'>HpeDabDWUCxvoLQSNSVmMSfUVEsQeeP85Qs5evvepump</span>
             </Window>
           </div>
           <Window>
